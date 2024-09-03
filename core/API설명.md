@@ -4,17 +4,29 @@
 ### Parameter
 - **apiKey** : 본인의 api키, 필수항목
 - **q** : 키워드
-- 정확하게 일치하는 키워드를 검색하려면 “”를 사용 
-- 반드시 표시되어야 하는 키워드는 +사용 ex) +keyword
-- 제외하고 싶은 키워드는 -사용 ex) -keyword
-- AND / OR / NOT을 사용하여 괄호로 그룹화할 수 있음 
-ex) crypto AND (ethereum OR litecoin) NOT bitcoin.
-q의 전체 값은 URL인코딩이 되어야 하며, 500자를 넘을 수 없다.
+
+  - 정확하게 일치하는 키워드를 검색하려면 “”를 사용 
+
+  - 반드시 표시되어야 하는 키워드는 +사용 ex) +keyword
+
+  - 제외하고 싶은 키워드는 -사용 ex) -keyword
+
+  - AND / OR / NOT을 사용하여 괄호로 그룹화할 수 있음 
+  
+  ex) crypto AND (ethereum OR litecoin) NOT bitcoin.
+
+  q의 전체 값은 URL인코딩이 되어야 하며, 500자를 넘을 수 없다.
+
 - **searchin** : 키워드의 검색필드
-- title
-- description
-- content
-여러 옵션을 쉼표로 구분해 검색할 수 있으며, 기본값은 모든 필드에 대해 검색을 수행
+
+  - title
+
+  - description
+
+  - content
+  
+  여러 옵션을 쉼표로 구분해 검색할 수 있으며, 기본값은 모든 필드에 대해 검색을 수행
+
 - **sources** : 헤드라인을 가져올 뉴스 소스 또는 블로그의 식별자를 쉼표로 구분한 문자열
 - **domains** : 검색할 도메인을 지정하며, 쉼표로 구분하여 여러 도메인을 사용가능
 - **excludeDomains** : 결과에서 제외할 도메인을 지정하며, 쉼표로 구분하여 사용가능
